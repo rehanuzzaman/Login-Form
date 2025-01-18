@@ -60,7 +60,7 @@ image {
 }
 
 .right {
-    padding: 50px 150px;
+    padding: 50px 25%;
     display: flex;
     justify-content: center;
     align-items: left;
@@ -126,4 +126,16 @@ form input {
     display: flex;
     justify-content: center;
     font-size: 12px;
+}
+
+form input:hover {
+    box-shadow: 0 0 5px blue;
+}
+
+form input:active {
+    box-shadow: 0 0 30px grey;
+}
+
+.submit:hover {
+    scale: 1.05;
 }
