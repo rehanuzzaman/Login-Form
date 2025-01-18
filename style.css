@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+}
+
+.left {
+    background-color: black;
+    color: white;
+    width: 400px;
+}
+
+.left h1 {
+    color: #059cfc;
+    font-weight: 300;
+    padding: 5px 15px;
+    margin-bottom: -15px;
+}
+
+.left h2 {
+    font-weight: normal;
+    font-size: 35px;
+    padding: 5px 15px;
+}
+
+.left p {
+    text-align: justify;
+    padding: 5px 15px;
+}
+
+.left button {
+    border: none;
+    border-radius: 5px;
+    background-color: #059cfc;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+
+.left a {
+    text-decoration: none;
+    color: white;
+}
+
+image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.right {
+    padding: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vh;
+}
+
+.right p {
+    color: grey;
+}
+
+.right a {
+    color: grey;
+    text-decoration: none;
+    color: black;
+}
+
+.google-signin {
+    border: none;
+    border-radius: 20px;
+    padding: 15px 45px;
+    width: 500px;
+    background-color: rgb(217, 217, 217);
+    color: black;
+
+}
