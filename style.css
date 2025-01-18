@@ -4,7 +4,6 @@ body {
 
 .main {
     display: flex;
-    height: 100vh;
 }
 
 .left {
@@ -21,19 +20,19 @@ body {
 .left h1 {
     color: #059cfc;
     font-weight: 300;
-    padding: 5px 15px;
+    padding: 5px 25px;
     margin-bottom: -15px;
 }
 
 .left h2 {
     font-weight: normal;
     font-size: 35px;
-    padding: 5px 15px;
+    padding: 5px 25px;
 }
 
 .left p {
     text-align: justify;
-    padding: 5px 15px;
+    padding: 5px 25px;
 }
 
 .left button {
@@ -44,7 +43,7 @@ body {
     color: white;
     text-decoration: none;
     font-size: 15px;
-    margin-left: 15px;
+    margin-left: 25px;
     margin-bottom: 30px;
     width: 200px;
 }
@@ -61,13 +60,13 @@ image {
 }
 
 .right {
-    padding: 75px;
+    padding: 50px 150px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     flex-direction: column;
     height: 100vh;
-    width: 100vh;
+    width: 100vw;
 }
 
 .right p {
@@ -81,11 +80,50 @@ image {
 }
 
 .google-signin {
-    border: none;
+    border: 1px solid rgb(201, 201, 201);
+    background-color: white;
     border-radius: 20px;
     padding: 15px 45px;
-    width: 500px;
-    background-color: rgb(217, 217, 217);
+    width: 550px;
     color: black;
+    font-weight: bold;
+}
 
+.alter-option {
+    display: flex;
+    justify-content: center;
+    margin: 50px 15px;
+}
+
+.label {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+form input {
+    background-color: white;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 10px;
+    width: 550px;
+    height: 35px;
+    margin-bottom: 25px;
+}
+
+.forgot {
+    margin-top: -20px;
+    margin-left: 5px;
+    text-decoration: underline;
+    font-size: 12px;
+}
+
+.submit {
+    background-color: black;
+    color: white;
+    height: 40px;
+}
+
+.register {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
 }
